@@ -1,0 +1,36 @@
+*{
+    text-align: center;
+}
+.timeline {
+        position: relative;
+        padding-left: 30px; /* Space for the line and bullets */
+        border-left: 2px solid #ccc; /* The vertical line */
+    }
+
+.timeline-event {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+.timeline-bullet {
+        position: absolute;
+        left: -40px; /* Adjust to align with the line */
+        top: 0;
+        width: 15px;
+        height: 15px;
+        background-color: #007bff; /* Bullet color */
+        border-radius: 50%;
+    }
+
+.timeline-content {
+        margin-left: 10px; /* Space between bullet and content */
+    }
+
+.timeline-date {
+        font-weight: bold;
+        color: #555;
+    }
+button{
+    color: white;
+    background-color: black;
+}
